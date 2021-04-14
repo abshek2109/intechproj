@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "286643f5-20b5-45d2-82f8-442259383968",
+		"name": "dart",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://llokality-intech-xald7lspga-el.a.run.app/api/v1.0/auth/phoneNumber/916005010021",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://llokality-intech-xald7lspga-el.a.run.app/api/v1.0/auth/phoneNumber/916005010021",
+					"protocol": "https",
+					"host": [
+						"llokality-intech-xald7lspga-el",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1.0",
+						"auth",
+						"phoneNumber",
+						"916005010021"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://llokality-intech-xald7lspga-el.a.run.app/api/v1.0/societies/roopnagar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://llokality-intech-xald7lspga-el.a.run.app/api/v1.0/societies/Sector 1",
+					"protocol": "https",
+					"host": [
+						"llokality-intech-xald7lspga-el",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1.0",
+						"societies",
+						"Sector 1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://llokality-intech-xald7lspga-el.a.run.app/api/v1.0/auth/phoneNumber",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phoneNumber\":\"919307816118\",\r\n    \"code\":\"838777\"\r\n}"
+				},
+				"url": {
+					"raw": "https://llokality-intech-xald7lspga-el.a.run.app/api/v1.0/auth/phoneNumber",
+					"protocol": "https",
+					"host": [
+						"llokality-intech-xald7lspga-el",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1.0",
+						"auth",
+						"phoneNumber"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
